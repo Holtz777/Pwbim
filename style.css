@@ -1,0 +1,121 @@
+body{
+    background-color:  #044c94;
+    
+    
+}
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-weight: 50;
+    
+    
+}
+
+
+
+form{
+    margin-left: 650px;;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 5px 5px 5px 5px;
+    padding: 2% ;
+    
+    
+
+}
+
+.senha{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.senha label {
+    width: 25%;
+    float: left;
+  }
+  
+input {
+    width: 80%;
+    background-color:  #efeff0;
+    border: 1px solid #d3d3d3;
+    font-size: large;
+    padding: 10px ;
+    margin-left: 4%;
+  }
+  
+  .senha button {
+    float: right;
+    background-color: transparent;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    margin-right: 50px;
+  }
+  
+
+label {
+    margin-left: 4%;
+    display: block;
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+  }
+
+.email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.email input{
+    width: 80%;
+    margin-right: 235px;
+    
+
+}
+
+
+#signin{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #2a8e13;
+    color: white;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    height: 50px;
+    width: 410px;
+    margin-right: 60px;
+    margin-left: 30px;
+    
+}
+
+.rodape{
+    margin-left: 650px;;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 5px 5px;
+    padding: 3% ;
+    margin-top: 400px;
+    width: 24%;
+}
+
+#ca{
+    float: right;
+    background-color: transparent;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    margin-right: 50px;
+    font-size: 14px;
+}
+
